@@ -225,9 +225,11 @@ export const Home = () => {
                                             alt="DEKUSDA Church Family" 
                                             className="object-cover border-4 border-white rounded-full shadow-2xl w-80 h-80"
                                         />
-                                        <div className="absolute px-4 py-2 text-sm font-bold text-white rounded-full -bottom-4 -right-4 bg-primaryBlue">
-                                            Join Our Family
-                                        </div>
+                                        <a href="https://chat.whatsapp.com/ILydxcM2OmlDT4Z0egZhNu?mode=ac_c">
+                                            <div className="absolute px-4 py-2 text-sm font-bold text-white rounded-full -bottom-4 -right-4 bg-primaryBlue hover:cursor-pointer">
+                                                Join Our Family
+                                            </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
@@ -353,7 +355,7 @@ export const Home = () => {
                             </div>
 
                             {/* Prayer Chain Callout */}
-                            <div className="mt-12 bg-primaryBlue/50 p-6 rounded-xl text-center">
+                            <div className="mt-12 bg-lightBlue/70 p-6 rounded-xl text-center">
                                 <h3 className="text-xl font-bold text-darkBlue mb-2">Join Our Prayer Chain</h3>
                                 <p className="text-gray-800/90 mb-4">Commit to praying for requests daily</p>
                                 <button className="px-6 py-2 bg-primaryBlue text-white rounded-lg hover:bg-darkBlue transition-colors">
